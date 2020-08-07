@@ -4,6 +4,12 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>Details of ICAPIE 2020</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
     <!--<link href="assets/css/detail.css" rel="stylesheet" type="css/text" />-->
     <style>
       body {
@@ -12,19 +18,91 @@
         font-family: sans-serif;
       }
       section {
-        padding: 0 100px;
-        background: #f456df url("./assets/img/about-bg.jpg");
+        padding: 0 170px;
+        background: #f456df url("./assets/img/details-bg.jpg");
         background-size: cover;
         overflow: hidden;
+        height: 100%;
+        justify-content: center;
+        /*display: flex;*/
+        align-items: center;
+      }
+      .box {
+        position: relative;
+        max-width: 900px;
+        padding: 10px 50px 50px 50px;
+        background: rgba(255, 255, 255, 0.7);
+        box-shadow: 0 25px 15px rgba(0, 0, 0, 0.9);
+        height: 100%;
+      }
+      .box h2 {
+        margin: 0 50 10px;
+        padding: 0;
+        font-size: 35px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      .box p {
+        margin: 0;
+        margin-top: 20px;
+        padding: 0;
+        font-size: 22px;
+        text-align: justify;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      .box span {
+        color: #f54024;
+        font-weight: bold;
+        font-size: 40px;
+      }
+      .social-f {
+        width: 100%;
+        height: 80px;
+        background-color: #232328;
+        padding-top: 33px;
+        text-align: center;
+      }
+      .icons {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        text-align: center;
+        color: #ffffff;
+        background-color: #2a2a2f;
+      }
+      .social-f a i {
+        position: relative;
+        top: 31%;
+      }
+      .icons:hover {
+        color: #f54024;
+      }
+      footer {
+        background-color: #232328;
+      }
+      .contact {
+        margin: 0;
+        padding: 20px 0 0 0;
+        font-size: 18px;
+        text-align: center;
+        overflow: hidden;
+        color: white;
+        line-height: 18px;
+      }
+      .contact span {
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+        text-align: center;
+
+        color: #f54024;
       }
     </style>
   </head>
   <body>
     <section>
       <div class="box">
-        <p>
-          Greetings from ICAPIE 2020 !
-        </p>
+        <h2>Greetings from <span>ICAPIE 2020 </span>!</h2>
         <p>
           5th International Conference on Advanced Production and Industrial
           Engineering (ICAPIE 2020) is being organized by CAPIER DTU during
@@ -41,13 +119,50 @@
           Engineering in recent past. All full paper submissions will be
           peer-reviewed and evaluated based on originality, technical and/or
           research content/depth, correctness, relevance to conference,
-          contributions, and readability. For any query regarding submission of
-          abstract/manuscript, you may kindly contact at <br /><a
-            >icapie.dtu@gmail.com</a
-          >
-          or +91-9654528868.
+          contributions, and readability.
+        </p>
+        <p>
+          EMail : icapie.dtu@gmail.com<br />
+          Facebook : https://www.facebook.com/icapie.delhi
+          <br />Linkedin : in.linkedin.com/in/ICAPIE<br />
+          Contact No. : +91-9654528868, 011-27871210
+          <br />
+        </p>
+        <p>
+          We look forward to welcome you and also express our gratitude for your
+          kindness consideration.<br />
+          <br />Best Regards, <br />Conference Chair <br />Dr. Ranganath M.
+          Singari , DTU, Delhi, India
         </p>
       </div>
     </section>
+    <footer>
+      <div class="contact">
+        For any query regarding submission of abstract/manuscript, you may
+        kindly contact at :<br />
+        <br /><span><a>icapie.dtu@gmail.com</a></span> or
+        <span>+91-9654528868</span>
+      </div>
+      <div class="social-f">
+        <a href="#" class="icons"
+          ><i class="fa fa-facebook" aria-hidden="true"></i
+        ></a>
+        <a href="#" class="icons"
+          ><i class="fa fa-twitter" aria-hidden="true"></i
+        ></a>
+        <a href="#" class="icons"
+          ><i class="fa fa-instagram" aria-hidden="true"></i
+        ></a>
+        <a href="#" class="icons"
+          ><i class="fa fa-youtube-play" aria-hidden="true"></i
+        ></a>
+        <a href="#" class="icons"
+          ><i class="fa fa-linkedin" aria-hidden="true"></i
+        ></a>
+        <a href="#" class="icons"
+          ><i class="fa fa-envelope" aria-hidden="true"></i
+        ></a>
+      </div>
+    </footer>
   </body>
 </html>
