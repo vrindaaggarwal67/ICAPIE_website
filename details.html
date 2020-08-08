@@ -10,100 +10,56 @@
       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
       crossorigin="anonymous"
     />
-    <!--<link href="assets/css/detail.css" rel="stylesheet" type="css/text" />-->
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-        font-family: sans-serif;
-      }
-      section {
-        padding: 0 170px;
-        background: #f456df url("./assets/img/details-bg.jpg");
-        background-size: cover;
-        overflow: hidden;
-        height: 100%;
-        justify-content: center;
-        /*display: flex;*/
-        align-items: center;
-      }
-      .box {
-        position: relative;
-        max-width: 900px;
-        padding: 10px 50px 50px 50px;
-        background: rgba(255, 255, 255, 0.7);
-        box-shadow: 0 25px 15px rgba(0, 0, 0, 0.9);
-        height: 100%;
-      }
-      .box h2 {
-        margin: 0 50 10px;
-        padding: 0;
-        font-size: 35px;
-        font-family: Georgia, "Times New Roman", Times, serif;
-      }
-      .box p {
-        margin: 0;
-        margin-top: 20px;
-        padding: 0;
-        font-size: 22px;
-        text-align: justify;
-        font-family: Georgia, "Times New Roman", Times, serif;
-      }
-      .box span {
-        color: #f54024;
-        font-weight: bold;
-        font-size: 40px;
-      }
-      .social-f {
-        width: 100%;
-        height: 80px;
-        background-color: #232328;
-        padding-top: 33px;
-        text-align: center;
-      }
-      .icons {
-        display: inline-block;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        text-align: center;
-        color: #ffffff;
-        background-color: #2a2a2f;
-      }
-      .social-f a i {
-        position: relative;
-        top: 31%;
-      }
-      .icons:hover {
-        color: #f54024;
-      }
-      footer {
-        background-color: #232328;
-      }
-      .contact {
-        margin: 0;
-        padding: 20px 0 0 0;
-        font-size: 18px;
-        text-align: center;
-        overflow: hidden;
-        color: white;
-        line-height: 18px;
-      }
-      .contact span {
-        margin: 0;
-        padding: 0;
-        font-size: 18px;
-        text-align: center;
 
-        color: #f54024;
-      }
-    </style>
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/font-awesome/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="./assets/css/details-style.css" rel="stylesheet" />
+    
   </head>
   <body>
+    <header id="header">
+      <div class="container">
+        <div id="logo" class="pull-left">
+          <!-- Uncomment below if you prefer to use a text logo -->
+          <!-- <h1><a href="#intro">The<span>Event</span></a></h1>-->
+          <a href="index.html" class="scrollto"
+            ><img src="assets/img/logo.png" alt="" title=""
+          /></a>
+        </div>
+
+        <nav id="nav-menu-container">
+          <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li class="menu-active"><a href="details.html">Details</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#venue">Venue</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li class="call-for-paper"><a href="#call-for-paper">Call for Paper</a></li>
+            <li><a href="#team">Organising Team</a></li>
+            <li><a href="#contact">Contact us</a></li>
+          </ul>
+        </nav>
+        <!-- #nav-menu-container -->
+      </div>
+    </header>
     <section>
       <div class="box">
         <h2>Greetings from <span>ICAPIE 2020 </span>!</h2>
-        <p>
+        <p class="para">
           5th International Conference on Advanced Production and Industrial
           Engineering (ICAPIE 2020) is being organized by CAPIER DTU during
           15-17 December, 2020 at Singapore. The International Conference ICAPIE
@@ -121,6 +77,119 @@
           research content/depth, correctness, relevance to conference,
           contributions, and readability.
         </p>
+
+<!-- ===================LIST OF IMP DATES================--> 
+        <br><br>
+        <div class = "container" >
+          <h3>IMPORTANT DATES:- </h3>
+          <ul class="list">
+              <li>
+                <p>Abstract submission starts:<span style="padding: 0 0 10px 217px">05 January 2020</span></p></li>
+              <li>
+                <p>Last date for Submission of Abstract: <span style="padding: 0 0 10px 114px ">05 July 2020</span></p></li>
+              <li>
+                <p>Notification for Decision: <span style="padding: 0 0 10px 227px ">15  July 2020</span></p></li>
+              <li>
+                <p>Last date for Submission of Full-length Papers:<span style="padding: 0 0 10px 16.5px">05 August 2020</span></p></li>
+              <li>
+                <p>Notification for Full-Length Papers: <span style="padding: 0 0 10px 120px ">15 August 2020</span></p></li>
+              <li>
+                <p>Last date for Registration: <span style="padding: 0 0 10px 210px">05 September 2020</span></p></li>
+              <li>
+                <p>Conference Dates:  <span style="font-weight: bolder; padding: 0 0 10px 284px">15-17 December 2020</span></p></li>
+          </ul>
+        </div>
+        <br>
+<!--==================== END of List Of IMP Dates =================-->
+
+
+        <p class="text">ICAPIE 2020  proceedings consisting of peer-reviewed papers will be published in<br> 
+         <span>Scopus Indexed Journals</span><br>  
+         Selected Extended papers will be invited for submission to SCI / ESCI  Indexed Journals
+        </p>
+        <br><br>
+
+<!--===================== Registration Fee Table ===================-->
+
+        <h3>Conference Registration Fees:- </h3>
+      <div style="overflow-x: auto;">
+        <table style="font-family: 'Arial';
+        margin: 25px auto;
+        border-collapse: collapse;
+        border: 1px solid #eee;
+        border-bottom: 2px solid #F9795B;
+        box-shadow: 0px 0px 30px rgba(0,0,0,0.10),
+        0px 10px 30px rgba(0,0,0,0.05),
+        0px 20px 30px rgba(0,0,0,0.05),
+        0px 30px 30px rgba(0,0,0,0.05);">
+          <thead>
+            <tr>
+              <th style="background: #F9795B; 
+                        border: 1px solid #eee;
+                        padding: 12px 35px;
+                        border-collapse: collapse;">REGISTRATION FEE</th>
+              <th style="background: #F9795B;
+                        border: 1px solid #eee;
+                        padding: 12px 35px;
+                        border-collapse: collapse;">INTERNATIONAL</th>
+              <th style="background: #F9795B;
+                        border: 1px solid #eee;
+                        padding: 12px 35px;
+                        border-collapse: collapse;">INDIAN</th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style=" border: 1px solid #eee;
+                          padding: 12px 35px;
+                          border-collapse: collapse;">Practitioners / Industrialists</td>
+              <td style=" border: 1px solid #eee;
+                          padding: 12px 35px;
+                          border-collapse: collapse;">USD 500/- </td>
+              <td style=" border: 1px solid #eee;
+                          padding: 12px 35px;
+                          border-collapse: collapse;">Rs. 36,000/- </td>
+            </tr>
+            <tr>
+              <td style=" border: 1px solid #eee;
+                          padding: 12px 35px;
+                          border-collapse: collapse;">Academicians</td>
+              <td style=" border: 1px solid #eee;
+                          padding: 12px 35px;
+                          border-collapse: collapse;">USD 400/-</td>
+              <td style=" border: 1px solid #eee;
+                          padding: 12px 35px;
+                          border-collapse: collapse;">Rs. 29,000/-</td>
+            </tr>
+            <tr>
+              <td style=" border: 1px solid #eee;
+                          padding: 12px 35px;
+                          border-collapse: collapse;">Students (Ph. D./ MTech / M.E / MBA /M. Sc.)</td>
+              <td style=" border: 1px solid #eee;
+                          padding: 12px 35px;
+                          border-collapse: collapse;">USD 350/- </td>
+              <td style=" border: 1px solid #eee;
+                          padding: 12px 35px;
+                          border-collapse: collapse;">Rs. 25,000/-</td>
+            </tr>
+            <tr>
+              <td style=" border: 1px solid #eee;
+                          padding: 12px 35px;
+                          border-collapse: collapse;">Co-authors / Attendees / Listeners</td>
+              <td style=" border: 1px solid #eee;
+                          padding: 12px 35px;
+                          border-collapse: collapse;">USD 300/- </td>
+              <td style=" border: 1px solid #eee;
+                          padding: 12px 35px;
+                          border-collapse: collapse;">Rs. 22,000/-</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+        <br><br>
+<!--==============    End of Registration Fee Table    =============-->
+
         <p>
           EMail : icapie.dtu@gmail.com<br />
           Facebook : https://www.facebook.com/icapie.delhi
@@ -130,7 +199,7 @@
         </p>
         <p>
           We look forward to welcome you and also express our gratitude for your
-          kindness consideration.<br />
+          kind consideration.<br />
           <br />Best Regards, <br />Conference Chair <br />Dr. Ranganath M.
           Singari , DTU, Delhi, India
         </p>
@@ -164,5 +233,21 @@
         ></a>
       </div>
     </footer>
+
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/superfish/superfish.min.js"></script>
+    <script src="assets/vendor/hoverIntent/hoverIntent.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
   </body>
 </html>
