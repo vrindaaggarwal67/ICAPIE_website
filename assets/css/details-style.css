@@ -32,7 +32,7 @@ section {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
 }
-.box p{
+.box p {
   margin: 0;
   margin-top: 20px;
   padding: 0;
@@ -41,7 +41,7 @@ section {
   font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 1.6;
 }
-.para{
+.para {
   text-indent: 10%;
 }
 .box h2 span {
@@ -92,30 +92,28 @@ footer {
 
   color: #f54024;
 }
-.list{
+.list {
   font-size: 15px;
   padding-bottom: 10px;
 }
 
-.list span{
+.list span {
   font-size: 20px;
   color: #f54024;
   font-weight: bold;
   padding-bottom: 10px;
   font-style: italic;
 }
-h3{
+h3 {
   font-size: 25px;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: bold;
 }
-.text span{
+.text span {
   color: #f54024;
   font-weight: bold;
 }
-
-
 
 #header {
   height: 90px;
@@ -145,7 +143,8 @@ h3{
   }
 }
 
-#header.header-scrolled, #header.header-fixed {
+#header.header-scrolled,
+#header.header-fixed {
   background: rgba(6, 12, 34, 0.98);
   height: 70px;
   padding: 15px 0;
@@ -167,7 +166,8 @@ h3{
   color: #fff;
 }
 
-#header #logo h1 a, #header #logo h1 a:hover {
+#header #logo h1 a,
+#header #logo h1 a:hover {
   color: #fff;
 }
 
@@ -177,9 +177,9 @@ h3{
   max-height: 40px;
 }
 
-
-/* ----------------------- NAV MENU ------------------*/ 
-.nav-menu, .nav-menu * {
+/* ----------------------- NAV MENU ------------------*/
+.nav-menu,
+.nav-menu * {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -264,7 +264,8 @@ h3{
   }
 }
 
-.nav-menu .menu-active a, .nav-menu a:hover {
+.nav-menu .menu-active a,
+.nav-menu a:hover {
   color: #fff;
 }
 
@@ -279,22 +280,24 @@ h3{
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #FF5E07;
+  background-color: #ff5e07;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
 
-.nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .menu-active > a:before {
+.nav-menu a:hover:before,
+.nav-menu li:hover > a:before,
+.nav-menu .menu-active > a:before {
   visibility: visible;
   width: 100%;
 }
 
 .nav-menu li.buy-tickets a {
   color: #fff;
-  background: #FF5E07;
+  background: #ff5e07;
   padding: 7px 22px;
   border-radius: 50px;
-  border: 2px solid #FF5E07;
+  border: 2px solid #ff5e07;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   margin-left: 8px;
@@ -307,7 +310,8 @@ h3{
   background: none;
 }
 
-.nav-menu li.buy-tickets:hover a:before, .nav-menu li.buy-tickets.menu-active a:before {
+.nav-menu li.buy-tickets:hover a:before,
+.nav-menu li.buy-tickets.menu-active a:before {
   visibility: visible;
 }
 
@@ -334,7 +338,7 @@ h3{
 }
 
 .nav-menu ul li:hover > a {
-  background: #FF5E07;
+  background: #ff5e07;
   color: #fff;
 }
 
@@ -405,7 +409,7 @@ h3{
 }
 
 #mobile-nav ul li a:hover {
-  color: #FF5E07;
+  color: #ff5e07;
 }
 
 #mobile-nav ul li li {
@@ -422,11 +426,11 @@ h3{
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #FF5E07;
+  color: #ff5e07;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #FF5E07;
+  color: #ff5e07;
 }
 
 #mobile-body-overly {
